@@ -16,7 +16,7 @@ Before running the FPL pipeline, make sure you have the following installed and 
 
     ```bash
     git clone https://github.com/OjoFemiJoseph/YDP_FPL.git
-    cd fpl-airflow-pipeline
+    cd YDP_FPL
     ```
 
 2. **Start the Docker Compose services:**
@@ -42,14 +42,3 @@ Before running the FPL pipeline, make sure you have the following installed and 
     Once you have configured the DAG and set the necessary variables, you can trigger the standing pipeline manually from the Airflow web UI .
 
 Feel free to customize the pipeline and configurations as per your specific FPL data processing needs.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-- [Apache Airflow](https://airflow.apache.org/)
-- [Fantasy Premier League API](https://fantasy.premierleague.com/help/)
-
-Happy data pipelining!
